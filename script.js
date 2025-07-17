@@ -13,3 +13,4 @@ document.getElementById('decrease').addEventListener('click',function(){
 counter -= 1;
 document.getElementById('count').textContent = counter;
 });
+
