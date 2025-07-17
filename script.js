@@ -8,3 +8,8 @@ document.getElementById('reset').addEventListener('click',function(){
     counter = 0;
     document.getElementById('count').textContent = counter;
 });
+
+document.getElementById('decrease').addEventListener('click',function(){
+counter -= 1;
+document.getElementById('count').textContent = counter;
+});
