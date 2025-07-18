@@ -10,7 +10,11 @@ document.getElementById('reset').addEventListener('click',function(){
 });
 
 document.getElementById('decrease').addEventListener('click',function(){
+    if(counter>0){
+
+    
 counter -= 1;
+    }
 document.getElementById('count').textContent = counter;
 });
 
